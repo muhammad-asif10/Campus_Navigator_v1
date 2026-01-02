@@ -1,0 +1,63 @@
+{
+  "IT Lab": {
+    "Lecture Rooms": 2
+  },
+
+  "Lecture Rooms": {
+    "IT Lab": 2,
+    "Auditorium": 2
+  },
+
+  "Auditorium": {
+    "Lecture Rooms": 2,
+    "Library": 2
+  },
+
+  "Library": {
+    "Auditorium": 2,
+    "Cafe": 1
+  },
+
+  "Cafe": {
+    "Library": 1
+  },
+
+  "Qasim Hall": {
+    "Sir Syed Hall": 5
+  },
+
+  "Sir Syed Hall": {
+    "Qasim Hall": 5,
+    "Liaquat Hostel": 8
+  },
+
+  "Liaquat Hostel": {
+    "Sir Syed Hall": 8
+  },
+
+  "Masjid UVAS": {
+    "Ground / Sports Complex": 5
+  },
+
+  "Ground / Sports Complex": {
+    "Masjid UVAS": 5,
+    "Gym": 1,
+    "Pool": 1
+  },
+
+  "Gym": {
+    "Ground / Sports Complex": 1
+  },
+
+  "Pool": {
+    "Ground / Sports Complex": 1
+  },
+
+  "Faculty Hostel": {
+    "IT Lab": 8
+  },
+
+  "Ayesha Girls Hostel": {
+    "IT Lab": 6
+  }
+}
